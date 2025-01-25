@@ -1,8 +1,7 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scene/earth.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scene/ParallaxBackground.tscn" type="PackedScene" id=2]
-[ext_resource path="res://scene/satellite.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scripts/main.gd" type="Script" id=4]
 
 [node name="main" type="Node2D"]
@@ -13,7 +12,3 @@ script = ExtResource( 4 )
 [node name="earth" parent="." instance=ExtResource( 1 )]
 position = Vector2( 532, 291 )
 scale = Vector2( 1.5, 1.5 )
-
-[node name="satlite" parent="." instance=ExtResource( 3 )]
-visible = false
-position = Vector2( -1143, -498 )
