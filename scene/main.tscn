@@ -11,3 +11,4 @@ script = ExtResource( 4 )
 
 [node name="earth" parent="." instance=ExtResource( 1 )]
 position = Vector2( 532, 297 )
+scale = Vector2( 1.5, 1.5 )
