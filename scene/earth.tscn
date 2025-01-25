@@ -40,7 +40,7 @@ scale = Vector2( 0.94, 0.974 )
 shape = SubResource( 1 )
 
 [node name="Position2D" type="Position2D" parent="."]
-position = Vector2( 92, -45 )
+position = Vector2( 121, -61 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 6 )
