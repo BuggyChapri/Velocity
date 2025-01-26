@@ -24,6 +24,7 @@ func _physics_process(delta):
 		rotation_degrees += speed * delta
 		var orbit_position = Vector2(cos(angle), sin(angle)) * radius
 		global_position = earth.global_position + orbit_position
+		Global.spawned = true
 
 	if collison:
 		var other_setallite = collison.collider 
@@ -34,4 +35,4 @@ func _physics_process(delta):
 
 func collided():
 	if is_colliding:
-		print("yty")
+		queue_free()

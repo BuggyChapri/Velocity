@@ -4,7 +4,7 @@
 [ext_resource path="res://assets/stalite.png" type="Texture" id=2]
 
 [node name="satlite" type="KinematicBody2D"]
-scale = Vector2( 0.5, 0.5 )
+scale = Vector2( 0.357, 0.357 )
 script = ExtResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]

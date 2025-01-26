@@ -10,5 +10,16 @@ script = ExtResource( 4 )
 [node name="ParallaxBackground" parent="." instance=ExtResource( 2 )]
 
 [node name="earth" parent="." instance=ExtResource( 1 )]
-position = Vector2( 532, 291 )
-scale = Vector2( 1.5, 1.5 )
+position = Vector2( 512, 256 )
+scale = Vector2( 1.375, 1.375 )
+
+[node name="Position2D" type="Position2D" parent="."]
+
+[node name="Position2D2" type="Position2D" parent="."]
+position = Vector2( 7, 597 )
+
+[node name="Position2D3" type="Position2D" parent="."]
+position = Vector2( 1021, 593 )
+
+[node name="Position2D4" type="Position2D" parent="."]
+position = Vector2( 1026, 4 )
